@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', function () {
   if (emailLink) {
     emailLink.addEventListener('click', function (e) {
       e.preventDefault();
-      const addr = 'Support@SaaflokMSP.onmicrosoft.com';
+      const addr = 'support@saaflok.com';
       this.href = 'mailto:' + addr;
       this.textContent = addr;
     });
